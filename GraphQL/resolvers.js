@@ -55,6 +55,8 @@ export const resolvers = {
       return data.books;
     },
   },
+
+  // Note: below code is little different because it is modify by chatgpt for better approach and handle test case
   // Root Mutation resolvers
   Mutation: {
     // Resolves the 'addBook' mutation, adds a new book to the data
